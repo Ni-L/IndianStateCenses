@@ -19,5 +19,9 @@ namespace IndianStateCenses
             return dataMap;
         }
 
+        public Dictionary<string, CensusDTO> LoadCensusData(Country iNDIA, object indiaStateCode, string indianStateCodeHeaders)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
