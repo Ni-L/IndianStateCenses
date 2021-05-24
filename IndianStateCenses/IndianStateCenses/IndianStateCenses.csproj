@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CensusAdapter.cs" />
+    <Compile Include="CensusAnalyser.cs" />
+    <Compile Include="CensusAnalyserException.cs" />
+    <Compile Include="CensusDTO.cs" />
+    <Compile Include="Constructor for different CSV\IndianStateCensusData.cs" />
+    <Compile Include="Constructor for different CSV\IndianStateCode.cs" />
+    <Compile Include="CsvAdapterFactory.cs" />
+    <Compile Include="IndianCensusAdapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="csvfiles\DelimiterIndiaStateCensusData.csv" />
+    <None Include="csvfiles\DelimiterIndiaStateCode.csv" />
+    <None Include="csvfiles\IndiaStateCensusData.csv" />
+    <None Include="csvfiles\WrongIndiaStateCode.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
